@@ -1,0 +1,123 @@
+.real_banner .swiper-button-next:after, 
+.real_banner .swiper-button-prev:after,
+.new_arrivals_wrapper .swiper-button-next:after,
+.new_arrivals_wrapper .swiper-button-prev:after{
+  color: transparent !important;
+}
+#mobile_shop_menu .swiper {
+    width: 100%;
+    height: 100%;
+  }
+#mobile_shop_menu .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+#search_body   .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+#search_body .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+#search_body .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+#search_body .swiper-pagination{
+  left: 47% !important;
+}
+
+/**/
+
+#cosmetics_lips_all .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+#cosmetics_lips_all .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#cosmetics_lips_all .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.direction_swiper_grid .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.direction_swiper_grid .swiper-slide {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.direction_swiper_grid .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/**/
+
+.under_brand_gwan .swiper {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 80px;
+}
+
+.under_brand_gwan .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+  flex-direction: column;
+}
+
+.under_brand_gwan .swiper-slide a img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.under_brand_gwan .swiper-pagination-bullet{
+  background: white;
+  width: 12px;
+  height: 12px;
+}
+#cosmetics_lips_all .swiper-scrollbar,
+#mainPage .swiper-scrollbar{
+  bottom: 45px;
+  left: 5%;
+  background: rgb(255 255 255 / 40%);
+  width: calc(90% - 2* var(--swiper-scrollbar-sides-offset, 1%));
+  height: 1px;
+}
+#cosmetics_lips_all .swiper-scrollbar-drag,
+#mainPage .swiper-scrollbar-drag{
+  background: rgb(255 255 255 / 80%); 
+}

@@ -1,0 +1,11 @@
+1. 로고 폰트만 바꿔보기.
+
+2. 메인페이지 가독성 높이기.
+
+3. 사용자 편의성 높이기
+
+https://whybk.tistory.com/81
+
+https://jemajin.blogspot.com/2017/10/css-hover-transition.html
+
+https://brunch.co.kr/@remain/8

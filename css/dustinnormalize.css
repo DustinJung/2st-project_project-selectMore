@@ -1,0 +1,130 @@
+.custom-loader-wrapper{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #f8f1f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000000000000000000000000000000000000000000000000000000000000000000000000000 !important;
+}
+.pre-loader{
+    width: 100px;
+    transition: all .3s linear;
+}
+*{
+    margin:0; 
+    padding:0;
+}
+body{
+    color: black;
+    overflow-y: hidden;
+}
+body.loaded{
+    overflow-y: auto;
+}
+ul,ol{
+    list-style: none !important;
+}
+a{
+    text-decoration: none;
+    display: block;
+    color: inherit;
+}
+img{
+    vertical-align: top;
+}
+body, input, textarea, button{
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+input, textarea, button{
+    background: none;
+}
+button{
+    cursor: pointer;
+}
+.label_hidden{
+	clip: rect(0 0 0 0);
+    border: 0;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+input::-webkit-inner-spin-button {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+.for_margin_bottom{
+    margin-bottom: 3rem;
+}
+.star_grade{
+    width: 106px;
+    height: 18px;
+    vertical-align: middle;
+    background: url(../images/common/stars.png) no-repeat 0 0;
+    background-size: 106px 108px;
+    text-indent: -99999px;
+}
+.star4{
+    background-position: 0 -72px !important;
+}
+.star5{
+    background-position: 0 -90px !important;
+}
+	/*omg컬러조정*/
+	.omgred{
+		color: #ce0e2d;
+	}	
+	.omgblack{
+		color: #1b1919;
+		text-shadow: 1px 1px rgba(255, 255, 255, 0.2);
+	}
+	.omgbrown{
+		color: #b57e6b;
+	}
+    .omgshadow{
+        text-shadow: 1px 1px rgba(14, 14, 14, 0.5);
+    }
+    .omgpink{
+        color: pink;
+        text-shadow: 1px 1px rgba(255, 255, 255, 0.5);
+    }
+    .omgblue{
+        color: #3636c8;
+    }
+    .pre-line{
+        white-space: pre-line;
+    }
+    .like{
+        transition: all .3s ease-out;
+        animation-name: none;
+    }
+    .like_on{
+        fill: red !important;
+    }
+    @keyframes like {
+        0% {
+            transform: scale(1);
+        }
+        50% {
+            transform: scale(1.5);
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
+@media screen and (max-width : 542px) {
+    .for_margin_bottom{
+        margin-bottom: 2rem;
+    }
+}

@@ -1,0 +1,36 @@
+상대적 단위 사용 ( font까지도 )
+vh와 vw, vmin과 vmax를 공부할 것.
+
+상단 fixed
+
+클래스 명 중복 사용 가능. css 획기적으로 줄이기 가능함.
+
+애플 사이트 참조, 크고 까리한 사진의 효과는 생각보다 엄청나다. 코딩적 기교보다는 여백과 사진이 디자인의 전부라고 봐도 될 정도.
+
+뭘 팔지. 헤쳐모여? 컨텐츠 신경써야 함. 메인이 컸으면 좋겠는데?
+
+29CM > 메인
+애플 스토어 > 서브
+
+--
+
+화면에 안 보여줄 거 #skip / .skip 으로 여러개 동시에 처리하기
+
+브라우저 버전 별 경우의 수 대비, clear both 와 display block 
+그냥 기본적인 각 레이아웃마다 에프터 만들어서 클리어부스랑 디스플레이 
+블럭 넣으면 좋다 아니면 overflow를 각 레이아웃마다 넣던가.
+서브메뉴 가리지 말기 or 레이아웃 깨지지 말기 목적
+
+그리드 만들기 > https://trungdq88.github.io/960-grid-generator/
+
+셀렉트샵 - 편집샵 : 헤쳐모여
+
+https://designbase.co.kr/sketch-4/ > 그리드에 대하여..
+
+아이콘폰트 221p
+
+https://velog.io/@leemember/%EB%B0%98%EC%9D%91%ED%98%95-CSS-width%EA%B0%92-PX%EA%B0%92%EC%9D%84-%ED%8D%BC%EC%84%BC%ED%8A%B8%EB%A1%9C-%EA%B3%84%EC%82%B0%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95
+
+
+https://designbase.co.kr/grid-calculator/
+그리드 시스템
