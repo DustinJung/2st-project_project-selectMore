@@ -772,7 +772,39 @@
         </aisde>
 
         <section class="container scroll_wrap main_sections main_4">
-            <h3 class="for_margin_bottom3 color-red origin_appear">게으름 이슈로 챕터4 제작 실패</h3>
+            <h3 class="for_margin_bottom2 color-red origin_appear">레이아웃의 일관성</h3>
+
+            <p class="pre-line color-light-brown scroll_on for_margin_bottom">Select More. 에서는 메인페이지에서 일관성을 유지하기 위해 desktop 기준 width: 1562px을 잡아 놓고, 양쪽 margin에 auto를 줘 고정된 수치 안에서 작업을 하였습니다.
+                이렇게 계산된 의도적인 px수치는 4k나 여러 기기 환경에서 일관된 layout을 유지하기 쉬우며, 내부 요소 또한 고정된 px값 안에서의 일률적인 간격들을 주어 layout 일관성을 가져올 수 있습니다.
+
+                desktop을 벗어나 mobile이나 tablet 환경에서는, 고정된 px수치에서 main-container의 width를 %값으로 다시 바꾼 후, 동일하게 가로 margin auto를 주어 어떤 기기에서든 80%의 일괄적인 여백 레이아웃을 확보하였습니다.
+            </p>
+
+            <h3 class="for_margin_bottom3 color-red scroll_on left_mode">반응형에 따른 가로-세로 구조</h3>
+            <p class="pre-line color-light-brown scroll_on for_margin_bottom">데스크탑과 모바일, 태블릿은 기기 특성이 모두 다릅니다. 동시에, 기기를 조작하는 느낌또한 다르며, 가로 세로 비율마저 다릅니다.
+
+                그렇기 떄문에, 이를 감안한 레이아웃의 조정은 반응형 웹에서는 선택이 아닌 필수인데요, Select More. 에서는 미디어쿼리를 이용해서 각 기기 특성에 맞게, display Flex 속성에서 세로배치 , 가로배치가 된다거나,
+
+                2줄로 진열된 것이 1열로 진열되다가도, 다시 구조가 바뀌는 등, 반응형 최적화에 힘썼습니다.
+
+                또한, product page에서는 display flex 속성과 width에 percentage값 + box-sizing border box + padding을 활용해서, product list가 기기 크기에 따라 자연스럽게 자동 정렬되도록 코드 구성을 하며, 전체적인 반응형에 크게 신경을 썼습니다.
+            </p>
+
+            <h3 class="for_margin_bottom3 color-red scroll_on left_mode">사용자 direction</h3>
+            <p class="pre-line color-light-brown scroll_on for_margin_bottom">Select more. 프로젝트에서는, 가상의 셀렉트샵이라는 콘셉트를 기반으로, 기획부터 웹 퍼블리싱까지 전반적으로 진지하게 임했습니다.
+
+                따라서, 실제 프로모션을 얼마나 자연스럽게 노출시킬 것이며, 그곳으로의 클릭률 확대, 또, 쇼핑몰 특성상, 사용자가 어떻게 직관적으로 바로 바로 자신이 원하는 곳으로 찾아 가게 만들 것이며, 
+
+                또 스크롤 어떤 위치에 있던, 적은 마우스 움직임으로 원하는 곳으로 갈 수 있도록 경로를 제공하는 등, 전반적인 사용자 경험 중심으로 생각하며 웹을 만들었습니다.
+
+                그러한 노력들은 페이지에 고스란히 녹아 있으며, 이는 Select More.를 구경하시면서 느끼실 수 있습니다.
+            </p>
+
+            <h3 class="for_margin_bottom3 color-red scroll_on left_mode">마무리 인사</h3>
+            <p class="pre-line color-light-brown scroll_on for_margin_bottom">앞서 다른 목차에서 설명드린 것들은 모두 빼고 기술하였기 떄문에 여기서 설명페이지를 마치고자 합니다.
+                
+                지금까지 설명 페이지를 읽어 주셔서 감사합니다, 정명기 였습니다!
+            </p>
         </section>
     </section>
 
